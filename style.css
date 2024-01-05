@@ -48,6 +48,12 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+    .likeBody {
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        margin: 0 auto;
+    }
     .container {
         margin: 0 auto;
         display: flex;
