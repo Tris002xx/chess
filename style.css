@@ -1,0 +1,47 @@
+body {
+    background-color: hsl(0deg 0% 15.69%);
+}
+
+.likeBody {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 800px;
+}
+
+.tile {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    background-color: green;
+    color: black;
+    /* font-size: 30px; */
+    /* font-size: 50px; */
+    font-size: 0px;
+}
+
+.white-tile {
+    background-color: hsl(60deg 45.16% 87.84%);
+}
+
+.black-tile {
+    /* background-color: hsl(90deg 27.12% 46.27%); */
+    background-color: hsl(2.82deg 35.27% 47.25%);
+}
+
+.player {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    color: burlywood;
+    font-size: 50px;
+}
