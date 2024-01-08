@@ -25,7 +25,7 @@ body {
     background-color: green;
     color: black;
     /* font-size: 30px; */
-    /* font-size: 50px; */
+    font-size: 50px;
     font-size: 0px;
 }
 
@@ -39,13 +39,14 @@ body {
     background-color: hsl(2.82deg 35.27% 47.25%);
 }
 
-.player {
+.player, #check {
     display: flex;
     margin: 0 auto;
     justify-content: center;
     color: burlywood;
     font-size: 50px;
 }
+
 
 @media screen and (max-width: 600px) {
     .likeBody {
@@ -70,8 +71,10 @@ body {
         background-color: green;
         color: black;
         /* font-size: 30px; */
-        /* font-size: 50px; */
+        font-size: 50px;
         font-size: 0px;
+
+
     }
 
     .white-tile {
