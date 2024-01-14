@@ -31,12 +31,14 @@ body {
 
 .white-tile {
     background-color: hsl(60deg 45.16% 87.84%);
+    /* background-color: #f8d2f9 */
 }
 
 .black-tile {
     /* background-color: hsl(90deg 27.12% 46.27%); */
     /* background-color: hsl(333.75deg 33.68% 62.75%); */
     background-color: hsl(2.82deg 35.27% 47.25%);
+    
 }
 
 .player, #check {
@@ -79,12 +81,15 @@ body {
 
     .white-tile {
         background-color: hsl(60deg 45.16% 87.84%);
+        /* background-color: #f8d2f9 */
+
     }
 
     .black-tile {
         /* background-color: hsl(90deg 27.12% 46.27%); */
-        /* background-color: hsl(333.75deg 33.68% 62.75%); */
+        background-color: hsl(333.75deg 33.68% 62.75%);
         background-color: hsl(2.82deg 35.27% 47.25%);
+        /* background-color: #fca9fd */
     }
 
     .player {

@@ -164,6 +164,7 @@ const pieceMove = (item, checker = undefined) => {
             oldTilePosition = selectedPiece.parentElement
             item.appendChild(chessPiece)
             return validated
+
         }
     }
     else {
@@ -186,11 +187,13 @@ const selectPiece = () => {
             if (counter == 0) {
                 if (player == 0 && event.target.classList[0] == "white") {
                     img.parentElement.style.backgroundColor = "hsl(29.14deg 99.06% 58.43%)"
+                    // img.parentElement.style.backgroundColor = "	#fe84ff"
                     selectedPiece = img
                     counter++
                 }
                 else if (player == 1 && event.target.classList[0] == "black") {
                     img.parentElement.style.backgroundColor = "hsl(29.14deg 99.06% 58.43%)"
+                    // img.parentElement.style.backgroundColor = "	#fe84ff"
                     selectedPiece = img
                     counter++
                 }
@@ -1945,7 +1948,7 @@ const checkMateChecker = () => {
 
                 // Black Bishop Checks White King
                 else if (chessChar.classList[1] == "bishop") {
-                    console.log("I am a black bishop")
+                    // console.log("I am a black bishop")
                     let blockedCells = []
                     let blockedCellsBishop = []
                     let blockedCellsBishopID = []
@@ -2275,7 +2278,6 @@ let ateChekcer = false
 let blackKingCheck = ''
 let whiteKingCheck = ''
 // checkMateChecker()
-console.log(`1909`)
 selectPiece()
 document.querySelectorAll(".tile").forEach(tile => {
     tile.addEventListener("click", () => {
